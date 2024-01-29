@@ -13,7 +13,7 @@ import starter.navigations.NavigationActions;
 import starter.pages.SearchResultSidebar;
 
 @ExtendWith(SerenityJUnit5Extension.class)
-public class DuckDuckSearch {
+public class DuckDuckSearchCucumber {
 	
 	@Managed(driver = "chrome")
 	WebDriver driver;
